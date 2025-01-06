@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import ayushImage from '../assets/ayush.jpeg';
 import {
   Terminal,
   Code2,
@@ -76,7 +77,7 @@ export default function Home() {
           <Card className="p-4 bg-zinc-900 overflow-hidden">
             <div className="relative aspect-[3/4] w-full overflow-hidden rounded-lg">
               <Image
-                src="https://i.pinimg.com/564x/27/59/2a/27592a992de78e5c39c678a78c34cce3.jpg"
+                src={ayushImage}
                 alt="Ayush Prasad"
                 fill
                 className="object-cover filter grayscale hover:grayscale-0 transition-all duration-300"
